@@ -1,0 +1,118 @@
+body {
+	background-color: #005249;
+}
+
+h1, p{
+	font-family: Times;
+	font-weight: bolder;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	color: #ECE5F0;
+}
+
+img {
+	border: solid 1px black;
+	margin: 0px;
+	margin-top: 20px;
+	padding: 0px;
+	height: 500px;
+	width: 250px;
+}
+
+.li {
+	list-style-type: none;
+	float: left;
+}
+
+p.information {
+	margin: 0px;
+	padding: 2px 0px;
+	color: white;
+	font-size: 18px;
+	background-color: #59114D;
+	border-radius: 5px;
+	display: none;
+}
+
+.card {
+	width: 35em;
+	margin: 0px 90px !IMPORTANT;
+	height: 540px;  
+	background-color: #012622;
+}
+
+.card-header {
+	height: 70px; 
+	background-color: #003b36;
+}
+
+select.custom-select{
+	padding-left: 60px;
+	height: 20px;
+	margin-bottom: 5px;
+	font-size: 10px;
+	width: 200px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+
+.col-4 {
+	padding: auto;
+	height: 150px;
+	border: solid 2px #005249;
+	background-color: black;
+	color: #E98A15;
+	padding-top: 30px;
+	font-size: 50px;
+}
+.col-4:hover{
+	background-color: #012622;
+}
+
+.card-body {
+	padding: 10px;
+}
+
+
+.txt-p1, .txt-p2 {
+	background-color: white;
+	border: solid 4px #59114D;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+	height: 45px;
+}
+.txt-p2 {
+	background-color: white;
+}
+
+
+.btn-p1, .btn-p2 {
+	background-color: #E98A15;
+	border: solid 4px #59114D;
+	color: #59114D;
+	font-weight: bolder;
+	height: 45px;
+}
+.btn-p2 {
+	background-color: white;
+}
+.btn-reset {
+	color: white;
+	background-color: #59114D;
+	border: solid 1px #E98A15;
+	height: 45px;
+	margin: 0px 1px;
+}
+
+.box-2, .box-4, .box-6, .box-8{
+	color: white;
+}
+
+.div-display-players-info {
+	display: none;
+}

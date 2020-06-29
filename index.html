@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Tic Tac</title>
+  </head>
+  <body>
+    <div class="container-fluid text-center pt-8">
+        
+        <h1 class="shadow rounded">Tic-Tac-Toe</h1>
+        <br>
+          <ul>
+            <li class="li">
+              <img id="img-p1">
+            </li>
+
+            <li class="li card text-white">
+              <p class="information">some message...</p>
+              <div class="">
+                <div class="select-group">
+                  <select class="select-p1 float-left custom-select">
+                    <option value="0">- Select Gender -</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                  </select>
+                  
+                  <select class="select-p2 float-right custom-select">
+                    <option value="0">- Select Gender -</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                  </select>
+                </div>
+
+                <div class="card-header shadow rounded">
+                  
+                  <div class="div-get-players-info btn-group container-fluid p-0" aria-label="Get Players Info">
+                    <input type="name" id="txt-p1" placeholder="Player 1 Name" class="txt-p1">
+                    <button type="button" onclick="getPlayersInfo()" class="btn btn-reset">START</button>
+                    <input type="name" id="txt-p2" placeholder="Player 2 Name" class="txt-p2">
+                  </div>
+
+                  <div class="div-display-players-info btn-group container-fluid p-0" aria-label="Display Players Info">
+                    <span class="btn btn-p1">PLAYER 1</span>
+                    <button type="button" onclick="reloadPage()" class="btn btn-reset">RESET</button>
+                    <button type="button" class="btn btn-p2">PLAYER 2</button>
+                  </div>
+                
+                </div>
+                <div class="card-body container-fluid px-4">
+                  <div class="row">
+                    <div class="col-4 box-1"></div>  
+                    <div class="col-4 box-2"></div>  
+                    <div class="col-4 box-3"></div>  
+                  </div>
+                  <div class="row">
+                    <div class="col-4 box-4"></div>  
+                    <div class="col-4 box-5"></div>  
+                    <div class="col-4 box-6"></div>  
+                  </div>
+                  <div class="row">
+                    <div class="col-4 box-7"></div>  
+                    <div class="col-4 box-9"></div>  
+                    <div class="col-4 box-8"></div>  
+                  </div>
+                </div>
+              </div>
+
+            <p class="text-white mt-2">Coded by Wasiu</p>
+          </li>
+
+          <li class="li">
+            <img id="img-p2">
+          </li>
+        </ul>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
